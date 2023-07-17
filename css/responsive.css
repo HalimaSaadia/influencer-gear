@@ -13,6 +13,22 @@
     nav ul li {
         text-align: center;
     }
+
+    /* banner */
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .banner-image{
+        margin: 50px 0;
+    }
+    .banner-image img{
+        padding: 0;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:993px) {
