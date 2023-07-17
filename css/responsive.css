@@ -29,11 +29,30 @@
     .banner-image img{
         padding: 0;
     }
+
+    /* sponsors */
+    .sponsors-container{
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        
+    }
+    .sponsors-container img{
+        width: 45px;
+        margin: auto;
+
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:993px) {
     .nav-container{
         justify-content: space-between;
     }
-    
+    .sponsors-container{
+        padding: 0 10px;
+        
+    }
+    .sponsors-container img{
+        width: 50px;
+        margin: auto;
+    }
 }
